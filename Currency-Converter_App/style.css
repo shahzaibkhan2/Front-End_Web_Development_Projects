@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 99.99vh;
+  background-color: bisque;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: url("space.jpg");
+  background-size: cover;
+}
+
+.main-box {
+  background-color: #f7f0f0;
+  padding: 30px;
+  border-radius: 20px;
+  min-height: 70vh;
+  min-width: 60vh;
+}
+
+.main-box h1 {
+  text-align: center;
+}
+
+form {
+  margin: 30px 0 20px 0;
+}
+
+form select,
+input,
+button {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+form input {
+  border: 1px solid lightgray;
+  height: 35px;
+  padding-left: 8px;
+  margin: 5px 0 0 0;
+  background-color: #f7f0f0;
+}
+
+.dropdowns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.select-box img {
+  max-width: 45px;
+}
+
+.dropdowns i {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.dropdowns select {
+  font-size: 13px;
+  font-weight: 400;
+  width: 60px;
+  background-color: #f7f0f0;
+}
+
+.dropdowns p {
+  margin-bottom: 10px;
+}
+
+.select-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  width: 101px;
+}
+
+.alert {
+  margin: 40px 0 30px 0;
+  text-align: center;
+  border: 1px solid lightgray;
+  height: 30px;
+  padding-top: 12px;
+  border-radius: 50%;
+  background-color: #8af3ff;
+  font-weight: 500;
+}
+
+form button {
+  height: 35px;
+  margin-top: 30px;
+  background-color: #18a999;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
